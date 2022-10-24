@@ -48,7 +48,6 @@ const start = () => {
         }
         if (text === "/start") {
             await bot.sendSticker(chatId, 'https://tlgrm.ru/_/stickers/4a4/f28/4a4f2880-e005-3f8f-ab47-2bb189e7d263/192/29.webp')
-            return bot.sendSticker(chatId, 'https://tlgrm.ru/_/stickers/4a4/f28/4a4f2880-e005-3f8f-ab47-2bb189e7d263/192/22.webp')
         }
         if (text === "/game") {
             return gameStart(chatId)
